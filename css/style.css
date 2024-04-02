@@ -1,0 +1,886 @@
+/* Area Incial*/
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*Caracteristicas basicas y generales del header (todas las paginas)*/
+
+.superior{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.superior{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    font-style:normal;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    height: 100px;
+    color:color-mix(in srgb-linear,orange 50%,red 40%);
+    position: absolute;
+    background: url("../assets/imagenes/general/encabezado.jpg");
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*Caracteristicas particulares del header por pagina*/
+
+.p {
+    text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+}
+.r {
+    text-shadow: 3px 3px 0 red, -3px 3px 0 red, -3px -3px 0 red, 3px -3px 0 red;
+}
+
+.e {
+    text-shadow: 3px 3px 0 #3F2305, -3px 3px 0 #3F2305, -3px -3px 0 #3F2305, 3px -3px 0 #3F2305;
+}
+.g {
+    text-shadow: 3px 3px 0 rgb(1, 95, 1), -3px 3px 0 rgb(1, 95, 1), -3px -3px 0 rgb(1, 95, 1), 3px -3px 0 rgb(1, 95, 1);
+}
+.a {
+    text-shadow: 3px 3px 0 gray, -3px 3px 0 gray, -3px -3px 0 gray, 3px -3px 0 gray;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*Caracteristicas particulares del body-fondo por pagina*/
+
+.fondo1{
+    background-image: url(../assets/imagenes/general/Pasto.jpeg);
+}
+
+.fondo2{
+    background-image: url(../assets/imagenes/general/Redstone.png);
+}
+
+.fondo3{
+    background-image: url(../assets/imagenes/general/pared.jpg);
+}
+
+.fondo4{
+    background-image: url(../assets/imagenes/general/Tierra.jpeg);
+}
+.fondo5{
+    background-image: url(../assets/imagenes/general/madera.jpg);
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*Caracteristicas particulares del body por pagina*/
+
+    /*Pagina Index*/
+
+    /**********************************************/
+.p1r {
+    display: inline-flex;
+    position: relative;
+    top: 110px;
+}    
+
+.p1r img{
+    width: 100px;
+    height: 100px;
+}
+.p1r p{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+    font-style:normal;
+    text-align: center;
+    font-size: 14;
+    width: 50%;
+    height: 100px;
+    color:white;
+    margin-top: 32px;
+}
+
+.p1r a img{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+    /**********************************************/
+.p1e {
+    display: inline-flex;
+    position: relative;
+    top: 110px;
+    justify-content: right;
+    }    
+
+.p1e img{
+    width: 100px;
+    height: 100px;
+
+}
+.p1e p{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+    font-style:normal;
+    text-align: center;
+    font-size: 14;
+    min-width: 50%;
+    width: 50%;
+    height: 100px;
+    color:white;
+    margin-top: 32px;
+}
+.p1e a img{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+    /**********************************************/
+.p1g {
+    display: inline-flex;
+    position: relative;
+    top: 110px;
+}    
+
+.p1g img{
+    width: 100px;
+    height: 100px;
+}
+.p1g p{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+    font-style:normal;
+    text-align: center;
+    font-size: 14;
+    width: 50%;
+    height: 100px;
+    color:white;
+    margin-top: 32px;
+}
+.p1g a img{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+    /**********************************************/
+.p1a {
+    display: inline-flex;
+    position: relative;
+    top: 110px;
+    justify-content: right;
+}    
+
+.p1a img{
+    width: 100px;
+    height: 100px;
+}
+.p1a p{
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    text-shadow: 3px 3px 0 black, -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black;
+    font-style:normal;
+    text-align: center;
+    font-size: 14;
+    width: 50%;
+    height: 100px;
+    color:white;
+    margin-top: 32px;
+}
+.p1a a img{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+    /**********************************************/
+
+    /*Pagina Redstone*/
+
+    /*###########################################*/    
+
+.centro {
+    display: inline-flex;
+    position: relative;
+    top: 225px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(0, 255, 255, 0.274);
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 15px;
+}
+.centro img{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+}
+
+.centro p{
+    align-self: center;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    text-shadow: 3px 3px 0 red, -3px 3px 0 red, -3px -3px 0 red, 3px -3px 0 red;
+    font-style:normal;
+    text-align: left;
+    font-size: 14;
+    width: 50%;
+    height: 100px;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    /*###########################################*/    
+
+.barra{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    position: absolute;
+    top: 110px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274);  
+    width: 93%;
+    height: 80px;
+    justify-items: center;
+    margin-left: 50px;
+}
+
+.barra img{
+    height: 60px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    /*###########################################*/        
+
+    /*Pagina Estructuras*/
+
+    /*###########################################*/    
+
+.desplazo{
+    display: inline-flex;
+    position: absolute;
+    top: 110px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274);  
+    width: 93%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.desplazo img{
+    height: 200px;
+    padding: 15px;
+    border: 10px solid rgb(99, 21, 21);
+    margin: 10px;
+}
+    /*###########################################*/    
+
+.desplazador{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    position: absolute;
+    bottom: 110px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274);  
+    width: 93%;
+    height: 80px;
+    justify-content: center;
+    margin-left: 50px;
+}
+        /*###########################################*/    
+
+.desplazador img{
+    height: 60px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: contain;
+}
+
+.desplazador .flecha1{
+    background:none;
+}
+
+.desplazador .flecha2{
+    background:none;
+}
+        /*###########################################*/    
+
+        .desplazador img:hover{
+            height: 60px;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-image: url(../assets/imagenes/estructuras/activo.png);
+            background-size: contain;
+        }
+        
+        .desplazador .flecha1:hover{
+            background-image:url(../assets/imagenes/estructuras/izquierda.png);
+        }
+        
+        .desplazador .flecha2:hover{
+            background-image:url(../assets/imagenes/estructuras/derecha.png);
+        }
+
+
+    /*Pagina Granjas*/
+
+        /*###########################################*/    
+.narradora{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 135px;
+    justify-content: right;
+}
+.narradora img{
+    height: 185px;
+}
+.narradora p{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    text-shadow: 3px 3px 0 green, -3px 3px 0 green, -3px -3px 0 green, 3px -3px 0 green;
+    font-style:normal;
+    text-align: center;
+    font-size: 14;
+    height: 100px;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+        /*###########################################*/    
+
+.narrador{
+    display: flex;
+    position: absolute;
+    top: 95px;
+    justify-content: center;
+}
+.narrador img{
+    height: 185px;
+    transform: rotatey(180deg);
+}
+.narrador p{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 1000;
+    text-shadow: 3px 3px 0 green, -3px 3px 0 green, -3px -3px 0 green, 3px -3px 0 green;
+    font-style:normal;
+    text-align: center;
+    font-size: 14;
+    height: 100px;
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+        /*###########################################*/    
+
+.construccion{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    justify-content: center;
+    
+}
+.construccion img{
+height: 200px;
+}
+        /*###########################################*/    
+
+.diseño{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 370px;
+    justify-content: right;
+    right: 20px;
+}
+.diseño img{
+    height: 100px;
+}
+    
+.diseño .map{
+    height: 50px;
+}
+        /*###########################################*/    
+
+.recursos{
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+
+.recursos img{
+    height: 150px;
+}
+.recursos .rock{
+    height: 95px;
+}
+        /*###########################################*/
+
+.mons{
+display: flex;
+position: relative;
+height: 250px;
+justify-content: center;
+top: 100px;
+}
+        /*###########################################*/
+
+    /*Pagina Aldeano*/
+
+        /*###########################################*/
+
+.aldeano {
+    display: flex;
+    position: absolute;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274);  
+    top: 100px;
+    right: 15px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.aldeano img{
+    height: 200px;
+    background-image: url(../assets/imagenes/aldeanos/Villager_Base.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.aldeano p{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 350px;
+margin-left: 25px;
+font-family: "Irish Grover", system-ui;
+font-weight: 1000;
+text-shadow: 3px 3px 0 gray, -3px 3px 0 gray, -3px -3px 0 gray, 3px -3px 0 gray;
+font-style:normal;
+text-align: center;
+font-size: 14;
+height: 100px;
+color:purple;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+        /*###########################################*/
+
+.apartados{
+    display: flex;
+    position: absolute;
+    bottom: 250px;
+    background: url(../assets/plantillas/marco.png);
+    background-color: rgba(255, 187, 0, 0.274);  
+    width: 93%;
+    height: 100px;
+    justify-content:space-between;
+    margin-left: 50px;
+}
+
+.apartados img{
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a1{
+    background-image: url(../assets/imagenes/aldeanos/Bed.png);
+}
+.a2{
+    background-image: url(../assets/imagenes/aldeanos/Crafting_Table.png);
+}
+.a3{
+    background-image: url(../assets/imagenes/aldeanos/Trader.png);
+}
+.a4{
+    background-image: url(../assets/imagenes/aldeanos/Witch.png);
+}
+
+        /*###########################################*/
+.a1:hover{
+    background-size: 150%;
+}
+.a2:hover{
+    background-size: 150%;
+}
+.a3:hover{
+    background-size: 120%;
+}
+.a4:hover{
+    background-size: 120%;
+}
+
+        
+        /*###########################################*/
+
+/*Caracteristicas basicas y generales del footer (todas las paginas)*/
+
+.inferior{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+.inferior img{
+    width: 100%;
+    height: 100px;
+}
+
+.inicio img{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.enlaces { 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+.enlaces img{
+    height: 50px;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+
+    /**********************************************/
+
+    /*Pagina Redstone Responsive */
+
+    /*###########################################*/    
+
+
+@media(max-width:1024px){
+
+    .centro {
+        background-color: rgba(0, 255, 255, 0.712);
+    }
+    
+    .centro p{
+        font-size: 12;
+    }
+    
+}
+
+/*----------------------------------------------------*/
+
+@media(max-width:768px){
+
+    .enlaces { 
+        display: flex;
+        right: 35%;
+    }
+    .enlaces img{
+        height: 50px;
+    }
+
+    
+    .centro {
+        display:grid;
+        grid-template-areas: "na1" "na2";
+        justify-items: center;
+        background-color: rgba(0, 255, 21, 0.274);
+        gap: 5px;
+        height: 230px;
+    }
+    .centro img{
+        grid-area: na1;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        top: 230px;
+    }
+    
+    .centro p{
+        grid-area: na2;
+        font-size: 12px;
+    }
+    
+
+}
+/*-------------------------------------------*/
+
+@media(max-width:425px){
+
+
+    
+    .enlaces { 
+        display:flex;
+        right: 35%;
+    }
+    .enlaces img{
+        height: 50px;
+    }
+
+    
+    .centro {
+        right: 0px;
+        display:grid;
+        grid-template-areas: "na1" "na2";
+        justify-items: center;
+        background-color: rgba(0, 255, 21, 0.274);
+        gap: 5px;
+        height: 250px;
+        margin-right: 0px;
+        margin-left: 150px;
+        top: 150px;
+    }
+    .centro img{
+        grid-area: na1;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        top: 190px;
+    }
+    
+    .centro p{
+        grid-area: na2;
+        font-size: 10px;
+    }
+    
+        /*###########################################*/    
+    
+    .barra{
+        display:block;
+        position:fixed;
+        top: 110px;
+        left: 0px;
+        background: url(../assets/plantillas/marco.png);
+        background-color: rgba(0, 162, 255, 0.274);  
+        width: 80px;
+        height: 320px;
+        justify-items: center;
+        margin-left: 50px;
+    }
+    
+    .barra img{
+        height: 40px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+
+    /**********************************************/
+
+    /*Pagina Index Responsive*/
+
+    /*###########################################*/    
+
+@media(max-width:1024px){
+    text-shadow:3px 3px 0 rgb(56, 55, 55), -3px 3px 0 rgb(56, 55, 55), -3px -3px 0 rgb(56, 55, 55), 3px -3px 0 rgb(56, 55, 55);
+}
+
+@media(max-width:768px){
+    /*aqui segun mi esperado en figma cambiaria el texto en las "p1*" por los titulos pero eso aun no lo hemos vist asi que asi lo deje */
+    .enlaces { 
+        display:flex;
+        right: 35%;
+    }
+    .enlaces img{
+        height: 50px;
+    }
+
+    .superior{
+        font-size: 30px;
+    }
+    
+    .p1r img{
+        width: 80px;
+        height: 80px;
+    }
+    .p1r p{
+        font-size: 10px;
+    }
+    
+    .p1r a img{
+        width: 50px;
+        height: 50px;
+    }
+        /**********************************************/
+    .p1e {
+        top: 60px;
+        justify-content: right;
+        }    
+    
+    .p1e img{
+        width: 80px;
+        height: 80px;
+    
+    }
+    .p1e p{
+        font-size: 10px;
+    }
+    .p1e a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+    
+        /**********************************************/
+    .p1g {
+        top: 40px;
+    }    
+    
+    .p1g img{
+        width: 80px;
+        height: 80px;
+    }
+    .p1g p{
+        font-size: 10px;
+    }
+    .p1g a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+        /**********************************************/
+    .p1a {
+        top: 0px;
+        justify-content: right;
+    }    
+    
+    .p1a img{
+        width: 80px;
+        height: 80px;
+    }
+    .p1a p{
+        font-size: 10px;
+    }
+    .p1a a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+}
+
+/*-------------------------------------------------------------------------*/
+@media(max-width:425px){
+    .enlaces { 
+        display:flex;
+        right: 35%;
+    }
+    .enlaces img{
+        height: 50px;
+    }
+
+    .p1r {
+        display: block;
+        justify-content: center;
+        top: 110px;
+    }    
+    
+    .p1r img{
+        width: 50px;
+        height: 50px;
+    }
+    .p1r p{
+        font-size: 10;
+        background-image: url(../assets/imagenes/general/Piepag.jpg);
+        background-size:contain;
+    }
+    
+    .p1r a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+        /**********************************************/
+    .p1e {
+        display: block;
+        justify-content: center;
+        top: 80px;
+        }    
+    
+    .p1e img{
+        width: 50px;
+        height: 50px;
+    
+    }
+    .p1e p{
+        font-size: 10;
+        background-image: url(../assets/imagenes/general/Piepag.jpg);
+
+    }
+    .p1e a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+    
+        /**********************************************/
+    .p1g {
+        display: block;
+        justify-content: center;
+        top: 110px;
+    }    
+    
+    .p1g img{
+        width: 50px;
+        height: 50px;
+    }
+    .p1g p{
+        font-size: 10;
+        background-image: url(../assets/imagenes/general/Piepag.jpg);
+        background-size:contain;
+    }
+    .p1g a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+        /**********************************************/
+    .p1a {
+        display: block;
+        justify-content: center;
+        top: 110px;
+    }    
+    
+    .p1a img{
+        width: 50px;
+        height: 50px;
+    }
+    .p1a p{
+        font-size: 10;
+        background-image: url(../assets/imagenes/general/Piepag.jpg);
+        background-size:contain;
+    }
+    .p1a a img{
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+    }
+}
